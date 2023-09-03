@@ -1,0 +1,168 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8); /* Set background color to transparent black */
+    background-image: url('./flat-lay-of-baked-bread-with-apples-and-oats.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    color: #fff; /* Set text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    color: #fff; /* Set text color to white */
+    text-align: center;
+}
+
+/* Header styles */
+.header {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for header */
+    padding: 20px 0;
+}
+
+.header .title {
+    font-size: 24px;
+    margin: 0;
+    color: #fff; /* Set text color to white */
+}
+
+/* Search bar styles */
+.search-meal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.search-meal .icon {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #fff; /* Set text color to white */
+}
+
+.search-meal input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000; /* Set text color to white */
+}
+
+.search-meal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Meal list styles */
+.meal-list {
+    list-style: none;
+    padding: 0;
+}
+
+.meal-list li img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.meal-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.meal-list li span {
+    font-weight: bold;
+    color: #fff; /* Set text color to white */
+}
+
+.meal-list li button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.meal-list li a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 10px;
+}
+
+/* Favorites styles */
+.favorites {
+    margin-top: 20px;
+}
+
+.favorites .favorite-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.favorites .favorite-item .favorite-name {
+    font-weight: bold;
+    color: #fff; /* Set text color to white */
+}
+
+.favorites .favorite-item .remove-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Favorites list styles */
+.favorites-list {
+    list-style: none;
+    padding: 0;
+}
+
+.favorites-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.favorites-list li span {
+    font-weight: bold;
+    color: #fff; /* Set text color to white */
+}
+
+.favorites-list li button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
